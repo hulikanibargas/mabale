@@ -1,0 +1,20 @@
+{
+  "name": "mabale",
+  "version": "1.0.0",
+  "description": "A mock website portfolio made with React JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hulikanibargas/mabale.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hulikanibargas/mabale/issues"
+  },
+  "homepage": "https://github.com/hulikanibargas/mabale#readme"
+}

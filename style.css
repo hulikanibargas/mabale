@@ -1,0 +1,296 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Shrikhand", cursive;
+  text-align: center;
+  margin: 50px 0 50px 0;
+  font-size: 3rem;
+}
+
+h2 {
+  padding-top: 50px;
+}
+
+h2, h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+@media (max-width: 576px) {
+  p {
+    font-size: 0.75rem;
+  }
+}
+
+#banner-a {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 3rem;
+}
+@media (max-width: 1200px) {
+  #banner-a {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 768px) {
+  #banner-a {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 576px) {
+  #banner-a {
+    font-size: 1.5rem;
+  }
+}
+
+#banner-b {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+@media (max-width: 576px) {
+  #banner-b {
+    font-size: 0.75rem;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+@media (max-width: 992px) {
+  .nav-item {
+    margin: 0px;
+  }
+}
+
+.nav-link {
+  font-size: 1.25rem;
+  color: black;
+}
+
+#banner {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-image: url(pictures/beach_kids.jpg);
+  background-size: cover;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1200px) {
+  #banner {
+    height: 400px;
+  }
+}
+@media (max-width: 768px) {
+  #banner {
+    height: 300px;
+  }
+}
+@media (max-width: 576px) {
+  #banner {
+    height: 250px;
+  }
+}
+
+#banner-box {
+  display: inline-block;
+  color: white;
+  background-color: #1C2833;
+  border-radius: 10px;
+  padding: 40px 100px;
+}
+@media (max-width: 768px) {
+  #banner-box {
+    border-radius: 0px;
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  #banner-box {
+    padding: 10px 0;
+  }
+}
+
+#banner-b {
+  font-size: 1.25rem;
+  color: red;
+}
+@media (max-width: 768px) {
+  #banner-b {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  #banner-b {
+    font-size: 0.75rem;
+  }
+}
+
+#knowledge {
+  margin: 50px auto;
+}
+
+.col-knl {
+  padding: 50px 30px;
+}
+@media (max-width: 768px) {
+  .col-knl {
+    padding: 20px;
+  }
+}
+
+#col-mid {
+  box-shadow: 12px 0px 10px -6px rgba(0, 0, 0, 0.13), -12px 0px 10px -6px rgba(0, 0, 0, 0.13);
+}
+@media (max-width: 992px) {
+  #col-mid {
+    box-shadow: none;
+  }
+}
+
+.btn-knl {
+  width: 250px;
+  height: 60px;
+  font-size: 1.75rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+@media (max-width: 768px) {
+  .btn-knl {
+    width: 100%;
+    font-size: 1rem;
+    margin: 10px auto;
+  }
+}
+
+.ctn-1 {
+  margin: 50px 0;
+}
+@media (max-width: 576px) {
+  .ctn-1 {
+    margin: none;
+  }
+}
+
+#portfolio {
+  background-color: #f2f2f2;
+}
+
+.box {
+  padding: 0 3%;
+}
+
+.card {
+  text-align: left;
+  box-shadow: 0px 13px 5px -6px rgba(0, 0, 0, 0.26);
+  margin: 25px 0;
+}
+.card h3, .card p, .card div {
+  margin: 15px 40px 0px 40px;
+}
+@media (max-width: 576px) {
+  .card h3, .card p, .card div {
+    margin: 10px 20px 0px 20px;
+  }
+}
+
+.btn-pstn {
+  padding-bottom: 15px;
+}
+
+.btn-prtf {
+  width: 150px;
+  height: 50px;
+}
+@media (max-width: 992px) {
+  .btn-prtf {
+    width: 100%;
+    height: 40px;
+  }
+}
+
+#blog {
+  background-color: #f2f2f2;
+  padding-bottom: 50px;
+}
+
+.btn-blog {
+  padding-bottom: 15px;
+}
+@media (max-width: 768px) {
+  .btn-blog .btn-info {
+    width: 100%;
+  }
+}
+
+footer {
+  background-color: #404040;
+  padding: 25px 25px;
+  color: white;
+  text-align: left;
+}
+footer #contact-us, footer form, footer #sm-links {
+  padding: 25px 0;
+}
+footer h2 {
+  font-size: 3rem;
+}
+@media (max-width: 576px) {
+  footer h2 {
+    font-size: 2rem;
+  }
+}
+
+form {
+  padding: 0px;
+}
+form button {
+  font-family: "Source Sans Pro", sans-serif;
+  width: 100%;
+}
+form label {
+  font-size: 1.5rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+@media (max-width: 768px) {
+  form label {
+    font-size: 1.25rem;
+  }
+}
+
+/* Social Media Links */
+#sm-links {
+  color: white;
+}
+#sm-links .sm {
+  padding-left: 20%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+@media (max-width: 576px) {
+  #sm-links .sm {
+    padding-left: 0;
+  }
+}
+#sm-links a {
+  display: inline-block;
+  color: inherit;
+  margin-left: 10px;
+}
+#sm-links a:hover {
+  color: #ffff99;
+  text-decoration-line: none;
+}
+
+/*# sourceMappingURL=style.css.map */
